@@ -1,0 +1,17 @@
+{
+  "name": "yarn-workspace-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private":true,
+  "workspaces": [
+    "client/*",
+    "server"
+  ],
+  "nohoist": [
+    "**/app1/**",
+    "**/app1",
+    "**/app2/**",
+    "**/app2"
+  ]
+}
