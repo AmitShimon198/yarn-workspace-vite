@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "private":true,
+  "scripts": {
+    "start:app1":"yarn workspace app1 start",
+    "start:app2":"yarn workspace app1 start",
+    "start:server":"yarn workspace server start"
+  },
   "workspaces": [
     "client/*",
     "server"
